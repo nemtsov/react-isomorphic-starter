@@ -11,5 +11,6 @@ function sassToCss() {
 }
 
 function sassToCssWatch() {
+  sassToCss();
   return gulp.watch('./lib/components/**/*.scss', sassToCss);
 }
