@@ -2,6 +2,7 @@
 /* global window, document */
 
 var React = require('react'),
+  HelloWorld = require('../HelloWorld/HelloWorld.jsx'),
   App;
 
 module.exports = App = React.createClass({
@@ -22,7 +23,7 @@ module.exports = App = React.createClass({
 
         <body>
           <div className="container">
-            <p>Hello world!</p>
+            <HelloWorld />
           </div>
 
           <script src="/assets/App.js" type="text/javascript"></script>
