@@ -1,4 +1,4 @@
-require('node-jsx').install({extension: '.jsx'});
+require('node-jsx').install({extension: '.jsx', harmony: true});
 
 var express = require('express'),
   compression = require('compression'),

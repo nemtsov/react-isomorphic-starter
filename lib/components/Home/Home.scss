@@ -1,0 +1,13 @@
+.Home {
+  .section {
+    display: block;
+    border: 1px solid #eee;
+    padding: 2em;
+    color: black;
+
+    &:hover {
+      background-color: #fafafa;
+      text-decoration: none;
+    }
+  }
+}
