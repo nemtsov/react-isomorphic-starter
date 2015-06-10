@@ -13,11 +13,11 @@ var gulp = require('gulp'),
 gulp.task('default', ['jsx', 'sass']);
 gulp.task('dev', ['jsx-watch', 'sass-watch', 'nodemon']);
 
-gulp.task('jsx', jsx.toJs('./lib/components/App/App.jsx', 'app.js'));
-gulp.task('jsx-watch', jsx.toJsWatch('./lib/components/App/App.jsx', 'app.js'));
+gulp.task('jsx', jsx.toJs('./lib/components/App/App.jsx', 'App.js'));
+gulp.task('jsx-watch', jsx.toJsWatch('./lib/components/App/App.jsx', 'App.js'));
 
-gulp.task('sass', sass.toCss('./lib/components/App/App.scss', 'app.css'));
-gulp.task('sass-watch', sass.toCssWatch('./lib/components/App/App.scss', 'app.css'));
+gulp.task('sass', sass.toCss('./lib/components/App/App.scss', 'App.css'));
+gulp.task('sass-watch', sass.toCssWatch('./lib/components/App/App.scss', 'App.css'));
 
 gulp.task('nodemon', nodemon.start);
 
