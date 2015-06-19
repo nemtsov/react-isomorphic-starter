@@ -49,7 +49,7 @@ function createBundler(config) {
     cache: {},
     packageCache: {},
     fullPaths: true,
-    transform: [['reactify', {'es6': true}]],
+    transform: ['babelify'],
     debug: config.isDebug
   });
 }
